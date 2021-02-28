@@ -1,6 +1,6 @@
 <?php 
 
-function customfunction($x,$y)
+function minOfTwo($x,$y)
 {
     if($x>$y) return $y; else return $x;
 }

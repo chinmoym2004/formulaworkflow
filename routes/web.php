@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', '\App\Http\Controllers\HomeController@index');
+Route::get('/', '\App\Http\Controllers\HomeController@getFormula');
+Route::post('/execute-formula', '\App\Http\Controllers\HomeController@index');
 
 
 
